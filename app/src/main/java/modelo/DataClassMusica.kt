@@ -1,4 +1,4 @@
 package modelo
 
-class DataClassMusica {
-}
+ data class DataClassMusica
+    val NombreCancion : String
