@@ -14,9 +14,7 @@ class Adapter(var Datos: List<Dat0aClassMusica>): RecyclerView.Adapter<ViewHolde
     }
 
     override fun getItemCount() = Datos.size
-        //Devuelve la cantidad de valores que se muestran
-
-
+    //Devuelve la cantidad de valores que se muestran
 
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
