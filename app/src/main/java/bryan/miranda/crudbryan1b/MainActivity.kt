@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             val Canciones = mutableListOf<Dat0aClassMusica>()
 
             while (ResultSet.next()){
-                val Nombre = ResultSet.getString("NombreCanción")
+                val Nombre = ResultSet.getString("NombreCancio    n")
                 val Cancion = Dat0aClassMusica(Nombre)
                 Canciones.add(Cancion)
             }
