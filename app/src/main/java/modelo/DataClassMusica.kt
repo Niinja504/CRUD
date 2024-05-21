@@ -1,4 +1,5 @@
 package modelo
 
- data class DataClassMusica
+ data class Dat0aClassMusica(
     val NombreCancion : String
+ )
